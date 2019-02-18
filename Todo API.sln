@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo API", "Todo API\Todo API.csproj", "{80A1E51E-83AD-45E9-A250-4BF16E130539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAPI", "Todo API\TodoAPI.csproj", "{80A1E51E-83AD-45E9-A250-4BF16E130539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo System", "Todo System\Todo System.csproj", "{1B7E699F-CF3D-4BB9-8978-B786A250E3B5}"
 EndProject
