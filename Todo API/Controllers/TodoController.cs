@@ -29,8 +29,8 @@ public class TodoController : Controller
         {
             // Create a new TodoItem if collection is empty,
             // which means you can't delete all TodoItems.
-            _context.TodoItems.Add(new TodoItem { Name = "Item1" });
-            _context.SaveChanges();
+            //_context.TodoItems.Add(new TodoItem { Name = "Item1" });
+            //_context.SaveChanges();
         }
     }
     // GET: api/Todo

@@ -16,7 +16,9 @@ namespace TodoAPI.Controllers
             foreach (TodoItem todoitems in todoItem) {
                 names.Add(todoitems.Name);
             }
-            
+            string stringName = string.Join(",", names);
+            string[] authorsList = stringName.Split(", ");
+            Console.WriteLine(authorsList);
             Console.WriteLine(todoItem);
             Console.WriteLine(names);
             //throw new NotImplementedException();
