@@ -33,8 +33,13 @@ public class TodoController : Controller
             //_context.SaveChanges();
         }
     }
-    // GET: api/Todo
-    [HttpGet]
+
+        //public TodoController()
+        //{
+        //}
+
+        // GET: api/Todo
+        [HttpGet]
     public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
     {
         var todoItem = await _context.TodoItems.ToListAsync();
